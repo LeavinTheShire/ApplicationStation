@@ -4,7 +4,7 @@ This is App Prime of Dev Group Leavin' the Shire...
 
 Current Contributors:
 * amarkpark
-* 
+* dvanetten03
 * 
 
 Let's use branching for feature PRs and maybe we'll protect the master branch in a few days. <3 <3 <3 ~The Management
