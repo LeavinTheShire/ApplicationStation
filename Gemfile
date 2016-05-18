@@ -23,6 +23,18 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# User management
+gem 'devise'
+
+# Bootstrap and sass
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Form building
+gem 'simple_form'
+
+# Password storage
+gem 'figaro'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -35,6 +47,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # Testing
+  gem 'rspec-rails'
+  gem 'capybara-webkit'
 end
 
 group :development do
