@@ -10,4 +10,4 @@ Current Contributors:
 
 Let's use branching for feature PRs and maybe we'll protect the master branch in a few days. <3 <3 <3 ~The Management
 
-<small>20160518</small>
+====== 20160518 
