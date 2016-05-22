@@ -49,7 +49,7 @@ group :development, :test do
   gem 'byebug'
   # Testing
   gem 'rspec-rails'
-  gem 'capybara-webkit'
+  gem 'capybara'
 end
 
 group :development do
