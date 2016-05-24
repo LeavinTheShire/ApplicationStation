@@ -3,11 +3,15 @@
 This is App Prime of Dev Group Leavin' the Shire...
 
 Current Contributors:
-* Amanda Park: amarkpark
+* Amanda Park: [amarkpark](https://github.com/amarkpark/)
 * Diane Van Etten: dvanetten03
-* Sharon Siegel: acodeinprogress
-* Nicola Guidi: nicolaguidi 
+* Sharon Siegel: [acodeinprogress](https://github.com/acodeinprogress)
+* Nicola Guidi: [nicolaguidi](https://github.com/nicolaguidi)
 
-Let's use branching for feature PRs and maybe we'll protect the master branch in a few days. <3 <3 <3 ~The Management
+Let's use branching for feature PRs and maybe we'll protect the master branch more formally in a few days. <3 <3 <3 ~The Management
 
-====== 20160518 
+# Development Notes:
+
+* Anyone running a vagrant dev env will have to run `rails s -b 0.0.0.0` in order to access the dev env of the App as `http://localhost:3030/`
+
+====== 20160523 
