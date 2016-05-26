@@ -16,7 +16,7 @@ Let's use branching for feature PRs and maybe we'll protect the master branch mo
 
 * Because this is running Rails 4.2.5, anyone running a vagrant dev env will have to run `rails s -b 0.0.0.0` in order to browse to the App at `http://localhost:3030/`
 * <b>IT IS IMPORTANT TO SKIP CI FOR SMALL CHANGES to new features</b> because our free plan has a limit of 100 builds per month. So for FRC PRs or last-minute adjustments that don't require testing please follow instructions below to skip CI builds!
-* [Skipping a build in CodeShip CI](https://codeship.com/documentation/continuous-integration/skipping-builds/): You can add --skip-ci or [skip ci] to the commit message of the last commit before you push and that push will be ignored. When you merge a pull request you can add the --skip-ci to the commit message to ignore the PR merge (not sure how this works for merging on github web interface). 
+* [Skipping a build in CodeShip CI](https://codeship.com/documentation/continuous-integration/skipping-builds/): You can add `--skip-ci` to the commit message of the last commit before you push and that push will be ignored. When you merge a pull request you can add the `--skip-ci` to the commit message to ignore the PR merge (not sure how this works for merging on github web interface). `[skip-ci]` DOES NOT WORK!
 
 
 <small>20160524</small>
