@@ -15,7 +15,6 @@ Let's use branching for feature PRs and maybe we'll protect the master branch mo
 ## Developer Notes:
 
 * Because this is running Rails 4.2.5, anyone running a vagrant dev env will have to run `rails s -b 0.0.0.0` in order to browse to the App at `http://localhost:3030/`
-* 
 * Skipping a build in Travis CI: add `[ci skip]` to the git commit message. Commits that have `[ci skip]` anywhere in the commit messages are ignored by Travis CI.
 
 <small>20160524</small>
