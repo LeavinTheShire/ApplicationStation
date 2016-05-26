@@ -15,6 +15,7 @@ Let's use branching for feature PRs and maybe we'll protect the master branch mo
 ## Developer Notes:
 
 * Because this is running Rails 4.2.5, anyone running a vagrant dev env will have to run `rails s -b 0.0.0.0` in order to browse to the App at `http://localhost:3030/`
-* Skipping a build in Travis CI: add `[ci skip]` to the git commit message. Commits that have `[ci skip]` anywhere in the commit messages are ignored by Travis CI.
+* [Skipping a build in CodeShip CI](https://codeship.com/documentation/continuous-integration/skipping-builds/): you can add --skip-ci or [skip ci] to the commit message of the last commit before you push and that push will be ignored. When you merge a pull request you can add the --skip-ci to the commit message to ignore the PR merge (not sure how this works for merging on github web interface).
+
 
 <small>20160524</small>
