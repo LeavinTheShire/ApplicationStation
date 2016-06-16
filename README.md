@@ -9,8 +9,9 @@ Find it [Live on Heroku](https://lts-applicationstation.herokuapp.com/)
 * Sharon Siegel: [acodeinprogress](https://github.com/acodeinprogress)
 * Nicola Guidi: [nicolaguidi](https://github.com/nicolaguidi)
 * Diane Van Etten: dvanetten03
+* Risse Rigdon: [risu-kun](https://github.com/risu-kun)
 
-Let's use branching for feature PRs and maybe we'll protect the master branch more formally in a few days. <3 <3 <3 ~The Management
+Let's use simple branching for feature PRs and maybe we'll protect the master branch more formally in a few days. <3 <3 <3 ~The Management
 
 ## Developer Notes:
 
@@ -19,4 +20,4 @@ Let's use branching for feature PRs and maybe we'll protect the master branch mo
 * [Skipping a build in CodeShip CI](https://codeship.com/documentation/continuous-integration/skipping-builds/): You can add `--skip-ci` to the commit message of the last commit before you push and that push will be ignored. When you merge a pull request you can add the `--skip-ci` to the commit message to ignore the PR merge (not sure how this works for merging on github web interface). `[skip-ci]` DOES NOT WORK!
 
 
-<small>20160524</small>
+<small>20160607</small>
